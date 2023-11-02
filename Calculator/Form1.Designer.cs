@@ -47,6 +47,7 @@ namespace Calculator
             this.btcong.TabIndex = 0;
             this.btcong.Text = "Cong";
             this.btcong.UseVisualStyleBackColor = true;
+            this.btcong.Click += new System.EventHandler(this.btcong_Click);
             // 
             // label1
             // 
