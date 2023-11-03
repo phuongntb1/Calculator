@@ -19,7 +19,11 @@ namespace Calculator
 
         private void btcong_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (txta.Text != String.Empty)
+=======
+            if (txta.Text != String.Empty && txtb.Text != String.Empty)
+>>>>>>> feature-Cal
             {
                 int a, b, ketqua;
                 a = int.Parse(txta.Text);
