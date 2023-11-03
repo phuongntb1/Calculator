@@ -37,6 +37,7 @@ namespace Calculator
             this.label3 = new System.Windows.Forms.Label();
             this.txtKQ = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.bttru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btcong
@@ -110,11 +111,22 @@ namespace Calculator
             this.label4.TabIndex = 6;
             this.label4.Text = "Ket qua";
             // 
+            // bttru
+            // 
+            this.bttru.Location = new System.Drawing.Point(108, 226);
+            this.bttru.Name = "bttru";
+            this.bttru.Size = new System.Drawing.Size(75, 43);
+            this.bttru.TabIndex = 8;
+            this.bttru.Text = "Tru";
+            this.bttru.UseVisualStyleBackColor = true;
+            this.bttru.Click += new System.EventHandler(this.bttru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(442, 333);
+            this.Controls.Add(this.bttru);
             this.Controls.Add(this.txtKQ);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtb);
@@ -140,6 +152,7 @@ namespace Calculator
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKQ;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button bttru;
     }
 }
 
